@@ -1,0 +1,188 @@
+
+
+/* Reset */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+
+/* Estilo principal */ 
+body {
+	font-family: 'Montserrat', sans-serif; /* Estilo general de letra de todo el cuerpo */
+	background-color: black;
+}
+
+h2 {
+	font-size: 30px;
+	text-align: center;
+	font-weight: 500;
+	padding-bottom: 50px; /* Margen entre el bot y el texto */
+}
+
+h4 {
+	font-size: 20px;
+	padding-bottom: 20px;
+	font-weight: 500;
+}
+
+p {
+	margin: 10px 0;
+	line-height: 30px;
+}
+
+a {
+	text-decoration: none;
+}
+
+
+
+/* clases de utilidad */
+.container {
+	margin: auto;
+	max-width: 1300px;
+	overflow: auto;
+	padding:  20px;
+}
+
+.large {
+	font-size: 20px;
+}
+
+.btn {
+	display: inline-block;
+	font-size: 15px;
+	padding: 15px 40px;
+	letter-spacing: 1px;
+}
+
+.btn-outline {
+	background: rgb(255, 255, 255);
+	border: 1px solid #fff;
+	color: #fff;
+	font-weight: 300;
+}
+
+.btn-outline:hover {
+	background: rgb(136, 136, 136);
+	color: rgb(255, 255, 255);
+}
+
+
+
+/* Navegación */
+#navbar {
+	overflow: auto;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+#navbar a {
+	color: #000;
+}
+
+#navbar .logo {
+	float: left; /* Coloco el logo a la izquierda */
+	padding-top: 12px; /* Margen entre el top y la imagen */
+}
+
+#navbar img {
+	height: 60px; /* Achico la imagen */
+}
+
+#navbar ul {
+	list-style: none; /* Le quito los puntos */
+	float: right; /* Coloco la lista del lado derecho */
+}
+
+#navbar ul li {
+	float: left; /* La lista se acomoda de izquierda a derecha */
+}
+
+#navbar ul li a {  
+	display: block;
+	padding: 20px;      /* Separo los links de la lista*/
+	text-align: center; /* centro el texto */
+}
+
+
+
+/* Fondo */
+#background {
+	background: url("images/showcase.jpg");
+	background-repeat: no-repeat; /* Para que no se repita la imágen */
+	background-position: center; /* centramos la imagen*/
+	background-size: cover;
+	height: 500px;
+	text-align: center;
+	padding: 100px;
+}
+
+#background .btn {
+	margin-top: 250px;
+}
+
+
+
+/* Proyectos*/
+#projects {
+	padding: 80px 0;
+	color:white
+	
+}
+
+.projects-row {
+	display: flex;
+}
+
+.projects-row img {
+	width: 100%;
+}
+
+
+
+/* Acerca de mi*/
+#about {
+	padding: 80px 0;
+	background: #000000;
+	color:rgb(255, 255, 255)
+}
+
+.about-row {
+	display: flex;
+}
+
+.about-row-experience,
+.about-row-me {
+	width: 50%;
+	padding-left: 50px;
+	background-color: black;
+	color: rgb(228, 176, 5)
+}
+
+
+
+/* Contacto */
+#contact {
+	padding: 80px;
+	color:white
+}
+
+.contact-row {
+	display: flex;
+}
+.contact-row-icon {
+	width: 100%;
+	text-align: center;
+	color: rgb(255, 255, 255);
+}
+
+.contact-row-icon img {
+	height: 40px; /* Tamaño de los íconos de la fila */
+	
+}
+
+
+
